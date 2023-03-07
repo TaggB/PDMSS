@@ -29,6 +29,7 @@ PDMSS offers an alternative. It works in the following way:
 </br>
 </br>
 ## Usage
+</br>
 This software uses some code from http://github.com/bow/abifpy to load .abi files, in accordance with fair use.
 </br>
 Otherwise, this can be run from terminal using a stable version of anaconda, and can be called from terminal by running the file and dragging in a .abi file when prompted. Two files are returned: one containing the ***full** raw sanger sequence as .csv, and another containing the PDMSS sequence as a .csv.  
