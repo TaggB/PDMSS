@@ -35,3 +35,5 @@ Otherwise, this can be run from terminal using a stable version of anaconda, and
 </br>
 There are a few parameters to play with that should be validated (and can be modified in the kwargs).
 These are idenified in the function description. To read, call help(peak_solver_sorter).
+</br>
+Of course, plotting and further downstream analysis cna be performed using the .csv file in Python using standard libraries, such as matplotlib etc. Loading cna be performed using pandas. IPython is recommended for that.
