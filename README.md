@@ -25,9 +25,7 @@ PDMSS offers an alternative. It works in the following way:
 5. Trim the sequence to remove low quality read sequences.  
 6. Perform background subtraction for each channel separately, using a rolling window to account for changing quality of read.  
 7. Normalise each channel to max amplitude.  
-8. Calculate the fraction of signal at that position attributable to a given base. For a perfect call, a channel would have a score of 1.0, and all other channels 0.0. A mixture of DNA will have values between this.
-</br>
-</br>
+8. Calculate the fraction of signal at that position attributable to a given base. For a perfect call, a channel would have a score of 1.0, and all other channels 0.0. A mixture of DNA will have values between this.  
 ## Usage
 </br>
 This software uses some code from http://github.com/bow/abifpy to load .abi files, in accordance with fair use.
