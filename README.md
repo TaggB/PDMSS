@@ -1,5 +1,5 @@
 # PDMSS
-##Peak discrimination for mixed sanger sequences
+## Peak discrimination for mixed sanger sequences
 </br>
 </br>
 The aim of this software is to allow calculation of the relative abundance of two or more DNA sequences from singular Sanger sequencing reads over 
@@ -28,7 +28,7 @@ PDMSS offers an alternative. It works in the following way:
 8. Calculate the fraction of signal at that position attributable to a given base. For a perfect call, a channel would have a score of 1.0, and all other channels 0.0. A mixture of DNA will have values between this.
 </br>
 </br>
-###Usage
+### Usage
 This software uses some code from http://github.com/bow/abifpy to load .abi files, in accordance with fair use.
 </br>
 Otherwise, this can be run from terminal using a stable version of anaconda, and can be called from terminal by running the file and dragging in a .abi file when prompted. Two files are returned: one containing the ***full** raw sanger sequence as .csv, and another containing the PDMSS sequence as a .csv.  
