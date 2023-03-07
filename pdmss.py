@@ -353,7 +353,7 @@ def peak_solver_sorter(seqdf,savepath,threshold = 200,timewindow = 3, trimwindow
     forbeat[pd.isna(forbeat)] = 0
 
     returns = pd.concat((background_subtracted.iloc[:,:4],forbeat,background_subtracted.iloc[:,4]),axis=1)
-    returns.to_csv(savepath+"PISS.csv")
+    returns.to_csv(savepath+"PDMSS.csv")
 
     # here: nb that bits after sequence cna have negativ ebeat
     
