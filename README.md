@@ -21,7 +21,7 @@ PDMSS offers an alternative. It works in the following way:
 1. All peaks are identified that have amplitude greater than a given threshold (default 40 based on distributions during validation).  
 2. These peaks, which may represent bona fide (additional peaks) are merged with those called during Sanger sequencing.  
 3. Peaks are combined if there is another peak within a given time window. Take the maximum for that channel during that window to create a new singular peak.  
-4. ***Base calls are amde at this point (presence of multiple channels = N)***. Because of this, base calls might not match the expectation.
+4. **Base calls are amde at this point (presence of multiple channels = N)**. Because of this, base calls might not match the expectation.
 5. Trim the sequence to remove low quality read sequences.  
 6. Perform background subtraction for each channel separately, using a rolling window to account for changing quality of read.  
 7. Normalise each channel to max amplitude.  
